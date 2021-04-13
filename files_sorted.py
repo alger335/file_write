@@ -29,12 +29,3 @@ def write_file(names_len_list):
                 w.writelines(f"{line}" for line in text)
                 w.write('\n')
     return
-
-#
-# def main():
-#     txt_files = file_filter()
-#     names_len = len_file(txt_files)
-#     write_file(names_len)
-#
-#
-# main()
